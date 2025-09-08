@@ -30,7 +30,10 @@ def extract_features(img_path,model):
 
 filenames = []
 
-for file in os.listdir('images'):
+image_dir = "/Users/shivangisingh/Desktop/FitPick/fashion-product-images-dataset/images"
+for file in os.listdir(image_dir):
+    filenames.append(os.path.join(image_dir, file))
+
     filenames.append(os.path.join('images',file))
 
 feature_list = []
