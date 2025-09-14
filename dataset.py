@@ -22,7 +22,7 @@ if not os.path.exists(csv_path):
         csv_path = found_csv
     else:
         # Fallback to ./data (manual download needed here)
-        print("⚠️ styles.csv not found in KaggleHub path. Falling back to ./data/")
+        print("styles.csv not found in KaggleHub path. Falling back to ./data/")
         csv_path = os.path.join("data", "styles.csv")
         image_dir = os.path.join("data", "images")
 
@@ -35,7 +35,7 @@ print("First 5 records:\n", df.head())
 if os.path.exists(image_dir):
     print("Number of images available:", len(os.listdir(image_dir)))
 else:
-    print("⚠️ Images directory not found:", image_dir)
+    print("️Images directory not found:", image_dir)
 
 # 5. Example: first image
 sample_id = df.iloc[0]["id"]
