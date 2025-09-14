@@ -20,15 +20,18 @@ FitPick is a **content-based image recommendation system** for fashion products.
 
 ---
 
-##  Project Structure
+## 📂 Project Structure
+
+```bash
 FitPick/
-│── app.py # Streamlit app (UI for recommendations)
-│── test.py # Backend test script for recommendation
-│── embeddings.pkl # Precomputed image embeddings
-│── filenames.pkl # Image file paths
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
-│── .gitattributes # Git LFS tracking rules
+│── app.py              # Streamlit app (UI for recommendations)
+│── test.py             # Backend test script for recommendation
+│── embeddings.pkl      # Precomputed image embeddings
+│── filenames.pkl       # Image file paths
+│── requirements.txt    # Dependencies
+│── README.md           # Project documentation
+│── .gitattributes      # Git LFS tracking rules
+```
 
 
 ---
